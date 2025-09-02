@@ -1,6 +1,4 @@
-# React + Vite
-
-Project -> Guess The Number;
+# Guess The Number
 
 🎯 Guess The Number Game (React + Tailwind CSS)
 A fun number guessing game built with React.js and styled using Tailwind CSS.

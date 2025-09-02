@@ -1,12 +1,40 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Project -> Guess The Number;
 
-Currently, two official plugins are available:
+🎯 Guess The Number Game (React + Tailwind CSS)
+A fun number guessing game built with React.js and styled using Tailwind CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features
 
-## Expanding the ESLint configuration
+* Random number generated between 1 and 100
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* User guesses the number and gets instant feedback:
+
+  * "Too low! Try again"
+
+  * "Too high! Try again"
+
+  * "Congratulations! You guessed the number..."
+
+* Tracks the number of attempts
+
+* Reset button to start a new round
+
+* Styled fully with Tailwind CSS for a clean and responsive UI
+
+Tech Stack
+
+* ⚛️ React.js (with useState hook)
+
+* 🎨 Tailwind CSS
+
+🚀 How to Play
+
+1. Enter a number between 1 and 100 in the input box.
+
+2. Click Check Guess to see the result.
+
+3. Keep guessing until you find the correct number.
+
+4. Press Reset Game to restart with a new random number.
